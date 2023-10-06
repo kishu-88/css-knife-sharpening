@@ -1,0 +1,15 @@
+.wrapper {
+    /* border: 2px solid white; */
+    height:100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child{
+    font-size: 3rem;
+    padding: 1rem;
+    border: 1px solid black;
+}
+

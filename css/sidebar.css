@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@300;400&family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #f2709c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff9472, #f2709c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff9472, #f2709c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+}
+
+.body-wrapper{
+    display: flex;
+}
+
+
+.sidebar{
+    width: 250px;
+    /* background-color: white; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: #bd0341;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff9472, #f2709c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff9472, #f2709c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+}
+
+.sidebar .actions{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0rem 1rem;
+    gap: 25px;
+
+}
+
+.sidebar .actions .action{
+    align-items: center;
+    border: 2px solid black;
+    width: 100%;
+    padding:5px;
+    text-decoration: none;
+    color: rgb(94, 7, 7);
+}
+
+.content-wrapper{
+    padding: 2rem;
+    width: 100%;
+}
+
