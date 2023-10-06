@@ -1,7 +1,7 @@
 # Sharpening CSS Knife Course Repository (Trainee Version)
 
 Welcome to my repository for the "Sharpening CSS Knife" course on LinkedIn! This repository serves as a record of my learning journey as a trainee, where I document my progress, store my code examples, and share resources related to the course.
-Find Demo Here : https://kishu-88.github.io/css-knife-sharpening/
+## Find Demo Here : https://kishu-88.github.io/css-knife-sharpening/
 
 ## Course Overview
 
