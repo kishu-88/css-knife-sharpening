@@ -1,0 +1,13 @@
+.equalHeightColumns{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.equalHeightColumns .column{
+    border: 2px solid red;
+    flex: 1 0 20ch;
+    text-align: justify;
+    padding: 1rem;
+    resize:horizontal;
+}

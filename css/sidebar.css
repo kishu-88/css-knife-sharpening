@@ -41,7 +41,14 @@ body{
     width: 100%;
     padding:5px;
     text-decoration: none;
-    color: rgb(94, 7, 7);
+    color: black;
+    border-radius: 5px;
+}
+
+.sidebar .actions .action:hover{
+    color: black;
+    border-radius: 5px;
+    background-color: aliceblue;
 }
 
 .content-wrapper{
